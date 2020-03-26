@@ -12,8 +12,8 @@ $(function() {
     new Handsontable(container, {
         data: data,
         className: "htCenter htMiddle",
-        width: '100%',
-        height: '100%',
+        width: 1000,
+        height: 1000,
         rowHeights: 50,
         colWidths: 190,
         colHeaders: true,
@@ -37,6 +37,7 @@ $(function() {
         yAxis: {
             data: yData
         },
+        yAxis: {},
         series: [{
             name: '排名',
             type: 'line',
